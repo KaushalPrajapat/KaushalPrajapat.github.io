@@ -1,0 +1,75 @@
+.jumbotron{
+    color: white;
+    background: rgb(102, 95, 190);
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+
+}
+.footer{
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.top{
+    max-width: 80%;
+    margin-bottom: 150px;
+}
+.page{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    /* border-bottom: 1px solid black; */
+}
+.row-middle{
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(199, 197, 197);
+
+}
+.nav-item, .fa{
+    margin: 5px;
+}
+.navigation-bar{
+    color: white;
+    background-color: rgb(18, 18, 131);
+}
+.navbar-toggler:hover{
+    background-color: rgb(166, 180, 219);
+    color: black;
+}
+
+/* Button inside card */
+.btn{
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: green;
+}
+.btn:active{
+    background-color: blue;
+}
+/* Navigation-Bar Logo */
+.logo-nav{
+    height: 40px;
+    width: 34px;
+    margin-left: 50px;
+}
+.btn-reserve-table{
+    margin-left: 10%;
+    float: right;
+}
+/* Header Logoimage */
+.header-logo{
+    width: 80px;
+    height: 80px;
+    
+}

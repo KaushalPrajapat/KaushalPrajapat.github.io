@@ -1,0 +1,96 @@
+body, h3{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 300px;
+    width: 32%;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    background-color: rgb(143, 140, 140);
+    /* text-align: center; */
+}
+.head{
+    float: right;
+    width: 35%;
+    background-color: rgb(228, 165, 128);
+    border: 1px solid rgb(85, 46, 192);
+    padding-right: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px;
+    /* font-family: 'Piedra', cursive; */
+    font-family: 'Metal Mania', cursive;
+}
+p{
+    margin-top: 40px;
+    margin-left: 5px;
+    font-family: 'Pacifico', cursive;
+}
+.head-1{
+    background-color: rgb(139, 121, 156);
+}
+.head-2{
+    background-color: rgb(175, 58, 58);
+}
+.head-3{
+    background-color: rgb(197, 197, 125);
+}
+
+
+/* On screens that are 992px or higher, set the background color to blue */
+/* Big Screen */
+@media screen and (min-width: 992px) {
+    .box{
+        height: 300px;
+        width: 30%;
+        border: 2px solid black;
+        margin: 0 10px;
+       }
+}
+
+
+/* On screens that are 991px or and 767, set the background color to blue */
+/* Tablat View */
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .box{
+        height: 250px;
+        width: 47%;
+        margin: 10px 1%;
+      }
+    .box-3{
+        /* background-color: red; */
+        width: 97%;
+        height: 150px;
+    }
+    .head-3{
+        width: 15%;
+    }
+}
+
+/* On screens that are 767px or less, set the background color to blue */
+/* Mobile View */
+@media screen and (max-width: 767px) {
+    .box{
+        width: 90%;
+        height: 210px
+    }
+
+    .box-1{
+        margin: 10px 5%;
+    }
+    .box-2{
+        margin: 10px 5%;
+    }
+    .box-3{
+        margin: 10px 5%;
+
+    }
+}

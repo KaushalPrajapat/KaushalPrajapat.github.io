@@ -1,0 +1,30 @@
+body, h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation-bar{
+    color: white;
+    background-color: gray;
+}
+/* @media screen and (min-width: 768px) { */
+.toggleButton{
+    /* color: black; */
+    background-color: rgb(124, 101, 101);
+}
+.toggleButton:hover{
+    background-color: gray;
+}
+.brand-name{
+    font-family: 'Poppins', sans-serif;
+}
+.our-menu{
+    font-family: 'Metal Mania', cursive;
+}
+.heading{
+    font-family: 'Piedra', cursive;
+}
+.para{
+    font-family: 'Architects Daughter', cursive;
+}
